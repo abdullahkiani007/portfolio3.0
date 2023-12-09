@@ -73,26 +73,28 @@
   ],
 
   "aboutpara": "Greetings! I'm an avid reader, cricket fanatic, and coding enthusiast. Currently exploring the exciting world of full stack development",
-  "tagline": "👋  I'm a software engineer, product designer, and maker.",
-  "description": "I have delivered world-class user experiences to many people. Well-versed with React, Javascript, and most of the Web frameworks.",
-  "experiences": [
-    {
-      "id": "1",
-      "dates": "March 2022 - Present",
-      "type": "Full Time",
-      "position": "Frontend Engineer at X",
-      "bullets": [
-        "Worked on the frontend of a React application",
-        "Worked on the frontend of a React application"
-      ]
-    }
-  ],
-  "education": {
-    "universityName": "Comsats University Islamabad ",
-    "universityDate": "2021-2025",
-    "universityPara": "BS Software Engineering"
-  },
-  "languages": ["Javascript", "HTML5", "CSS", "Python"],
-  "frameworks": ["React", "Typescript", "NodeJs"],
-  "others": ["Figma", "Linux"]
+  "resume": {
+    "tagline": "👋  I'm a software engineer, product designer, and maker.",
+    "description": "I have delivered world-class user experiences to many people. Well-versed with React, Javascript, and most of the Web frameworks.",
+    "experiences": [
+      {
+        "id": "1",
+        "dates": "March 2022 - Present",
+        "type": "Full Time",
+        "position": "Frontend Engineer at X",
+        "bullets": [
+          "Worked on the frontend of a React application",
+          "Worked on the frontend of a React application"
+        ]
+      }
+    ],
+    "education": {
+      "universityName": "Comsats University Islamabad ",
+      "universityDate": "2021-2025",
+      "universityPara": "BS Software Engineering"
+    },
+    "languages": ["Javascript", "HTML5", "CSS", "Python"],
+    "frameworks": ["React", "Typescript", "NodeJs"],
+    "others": ["Figma", "Linux"]
+  }
 }
