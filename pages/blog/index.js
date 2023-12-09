@@ -60,6 +60,7 @@ const Blog = ({ posts }) => {
       alert("This thing only works in development mode.");
     }
   };
+  console.log("posts", posts);
   return (
     showBlog.current && (
       <>
@@ -81,6 +82,11 @@ const Blog = ({ posts }) => {
               Blog.
             </h1>
             <div className="mt-10 grid grid-cols-1 mob:grid-cols-1 tablet:grid-cols-2 laptop:grid-cols-3 justify-between gap-10">
+              {posts.length === 0 && (
+                <h1 className="text-3xl text-center w-full">
+                  Blogs comming soon.
+                </h1>
+              )}
               {posts &&
                 posts.map((post) => (
                   <div
